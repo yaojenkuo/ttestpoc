@@ -1,9 +1,9 @@
 # T-Test PoC Scripts
 # ------------------
 
-# install.packages("devtools") # 先安裝 devtools 套件的話
+# install.packages("devtools") # 先安裝 devtools 套件
 library(devtools)
-#setwd("/Downloads") # 假設你將 ttestpoc 資料夾置放於 /Downloads 路徑
+#setwd("~/Downloads") # 假設你將 ttestpoc 資料夾置放於 ~/Downloads 路徑
 install("ttestpoc")
 library(ttestpoc)
 # 這個套件包含四個函數可用 ? 查詢用法
